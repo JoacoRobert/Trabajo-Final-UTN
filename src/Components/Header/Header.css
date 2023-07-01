@@ -1,13 +1,18 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 a{
     text-decoration: none;
 }
 
 body{
     font-family: 'Ubuntu', sans-serif;
-}
-
-button {
-    padding: 0px;
 }
 
 /*Header*/
@@ -55,7 +60,6 @@ header{
 .btn-nav {
     border: none;
     font-size: 20px;
-    background-color: white;
 }
 
 .btn-nav a{
@@ -72,4 +76,112 @@ header{
 .btn-nav a:hover{
     background-color: #E62872;
     color: white;
+}
+
+.nav-responsive{
+    display: none;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    .texto-header, .nav-header, .btn-nav{
+        display: none;
+    }
+
+    .btn-responsive{
+        background-color: #E62872;
+    }
+
+    .btn-responsive:hover{
+        background-color: #7E68D4;
+    }
+
+    .texto-header-responsive a{
+        color: #E62872; 
+        font-size: 22px;
+    }
+    
+    .texto-header-responsive a:hover{
+        color: #7E68D4;
+    }
+    
+    .icn-header-responsive{
+        padding: 0px 10px 0px 0px;
+        font-size: 22px;
+    }
+    
+    .icn-header-responsive:hover{
+        color: #7E68D4;
+    }
+
+    .nav-responsive{
+        display: flex;
+        text-align: center;
+        background-color: white;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .nav-item a{
+        color: white !important;
+        background-color: #E62872;
+        margin-top: 5px;
+        border-radius: 20px;
+    }
+
+    .nav-item a:hover{
+        background-color: #7E68D4;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .texto-header, .nav-header, .btn-nav{
+        display: none;
+    }
+
+    .btn-responsive{
+        background-color: #E62872;
+    }
+
+    .btn-responsive:hover{
+        background-color: #7E68D4;
+    }
+
+    .texto-header-responsive a{
+        color: #E62872; 
+        font-size: 22px;
+    }
+    
+    .texto-header-responsive a:hover{
+        color: #7E68D4;
+    }
+    
+    .icn-header-responsive{
+        padding: 0px 10px 0px 0px;
+        font-size: 22px;
+    }
+    
+    .icn-header-responsive:hover{
+        color: #7E68D4;
+    }
+
+    .nav-responsive{
+        display: flex;
+        text-align: center;
+        background-color: white;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .nav-item a{
+        color: white !important;
+        background-color: #E62872;
+        margin-top: 5px;
+        border-radius: 20px;
+    }
+
+    .nav-item a:hover{
+        background-color: #7E68D4;
+    }
 }

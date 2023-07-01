@@ -1,0 +1,544 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*Hero*/
+.hero{
+    background-color: #F4FCFF;
+    height: 70vh;
+    display: flex;
+    align-items: center; 
+}
+
+.contenedor-hero{
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.titulo-hero{
+    font-size: 15px;
+}
+
+.img-hero{
+    border-radius: 25px;
+    width: 50%;
+   
+}
+
+.texto-hero1{
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.texto-hero2{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.btn-hero{
+    border: none;
+    margin-top: 50px;
+}
+
+.btn-hero a{
+    background-color: #E62872;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 15px 20px;
+    color: white;
+}
+
+.btn-hero a:hover{
+    background-color: #7E68D4;
+}
+
+span{
+    color: #E62872;
+}
+
+/*Experiencia*/
+.experiencia{
+    margin: 70px 0px 70px 0px;
+}
+
+.experiencia h2{
+    margin-bottom: 25px;
+}
+
+.experiencia h3{
+    font-size: 16px;
+}
+
+.titulo-experiencia{
+    font-size: 30px;
+    margin-top: 80px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contenedor-experiencia{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contenedor-experiencia h3{
+    margin-top: 25px;
+}
+
+.caja1{
+    border-bottom: 2px solid #E62872;
+}
+
+.caja1, .caja2, .caja3, .caja4{
+    background-color: #F4FCFF;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.texto-experiencia{
+    margin-top: 20px;
+    
+}
+
+.caja2, .caja3, .caja4{
+    margin-left: 15px;
+}
+
+.icono-experiencia{
+    background-color: white;
+    color: #006D68;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+/*Sobre Mí*/
+.contenedor-sobremi{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.texto-sobremi{
+    margin-left: 30px;
+}
+
+.titulo-sobremi{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.texto-sobremi1, .texto-sobremi2{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.texto-sobremi1{
+    margin-bottom: 20px;
+}
+
+/*Portfolio*/
+.portfolio-uno{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.titulo-portfolio{
+    font-size: 40px;
+}
+
+.btn-portfolio button{
+    border: none;
+    font-size: 15px;
+}
+
+.btn-portfolio a{
+    background-color: #E62872;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 15px 20px;
+    color: white;
+}
+
+.btn-portfolio a:hover{
+    background-color: #7E68D4;
+    color: white;
+}
+
+.icono-portfolio{
+    margin-right: 10px;
+}
+
+.contenedor-portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.tarjeta-1{
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.img-portfolio{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-color: #A58EFF;
+    border-radius: 10px;
+}
+
+.img-portfolio2{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-color: #D7D0FC;
+    border-radius: 10px;
+}
+
+.img-portfolio3{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-color: #D4D5D9;
+    border-radius: 10px;
+}
+
+.cards{
+    background-color: #FFFFFF;
+    padding: 20px 10px;
+}
+
+.card-titulo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.texto-portfolio{
+    margin-bottom: 10px;
+}
+
+.enlace-portfolio{
+    color: black;
+    font-size: 17px;
+    border-bottom: 2px solid #E62872;
+    padding-bottom: 5px;
+}
+
+.enlace-portfolio:hover{
+    color: #7E68D4;
+    border-bottom: 2px solid #7E68D4;
+}
+
+.flecha{
+    color: #006D68;
+    font-size: 20px;
+}
+
+
+/*Testimonios*/
+.testimonios{
+    margin-top: 80px;
+    background-color: #F4FCFF;  
+}
+
+.titulo-testimonios{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 35px;
+    padding-top: 60px;
+}
+
+.contenedor-testimonios{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.clientes{
+    border: 2px solid #F2CC0C;
+    border-radius: 5px;
+    padding: 20px 20px;
+    width: 26%;
+    margin-top: 45px;
+}
+
+.texto-clientes{
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.icn-clientes{
+    color: #F2CC0C;
+}
+
+.marcas{
+    display: flex;
+    align-items: center;
+}
+
+.icn-clientes2{
+    padding-right: 10px;
+    font-size: 45px;
+    color: #F2CC0C;
+}
+
+.icn-clientes3{
+    padding-right: 10px;
+    font-size: 45px;
+    color: #9CD5F0;
+}
+
+.icn-clientes4{
+    padding-right: 10px;
+    font-size: 45px;
+    color: #C5B2A3;
+}
+
+/*Contacto*/
+.contacto{
+    margin-top: 90px;
+}
+.titulo-contacto{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 35px;
+}
+
+.texto-contacto{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contenedor-contacto{
+    width: 60%;
+    margin: 0 auto;  
+}
+
+.contacto-datos{
+    display: flex;
+}
+
+.columna1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.columna2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.columna3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cuadros{
+    border: 2px solid #E62872;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.columna1, .columna2, .columna3{
+    margin-bottom: 15px;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+.terminos{
+    font-size: 15px;
+}
+
+.boton-contacto{
+    text-align: center;
+}
+
+.btn-contacto{
+    border: none;
+    margin-top: 50px;
+}
+
+.btn-contacto a{
+    background-color: #E62872;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 20px 30px;
+    color: white;
+}
+
+.btn-contacto a:hover{
+    background-color: #7E68D4;
+}
+
+/*Responsive*/
+@media screen and (max-width:1200px) {
+    .texto-hero2{
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .contenedor-sobremi{
+        display: block;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .texto-sobremi1, .texto-sobremi2{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .texto-sobremi1, .texto-sobremi2{
+        font-size: 16px;}
+
+    .hero{
+        height: 100vh;
+     }
+
+    .contenedor-hero{
+        display: block; 
+        text-align: center;
+    }
+
+    .img-hero{
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .titulo-experiencia{
+        text-align: center;
+    }
+
+    .contenedor-experiencia{
+        display: block;
+    }
+
+    .caja2, .caja3, .caja4{
+        margin-left: 0px;
+        margin: 10px 0px;
+    }
+
+    .contenedor-sobremi{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-sobremi{
+        width: 90%;
+        padding-left: 25px;
+    }
+
+    .texto-sobremi{
+        text-align: center;
+        width: 80%;
+    }
+
+    .btn-portfolio{
+        display: block;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .portfolio-uno{
+        margin-top: 55px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo-portfolio{
+        text-align: center;
+    }
+
+    .contenedor-portfolio{
+        display: block;
+        align-items: center;
+    }
+
+    .tarjeta-1{
+        width: 100%;
+        margin: 15px 0px;
+    }
+
+    .titulo-testimonios{
+        text-align: center;
+    }
+
+    .contenedor-testimonios{
+        display: block;
+    }
+
+    .clientes{
+        width: 100%;
+    }
+
+    .contacto-datos{
+        display: block;
+    }
+
+    .contenedor-contacto{
+        width: 80%;
+    }
+
+    .columna1, .columna2{
+        width: 100%;
+    }
+}
