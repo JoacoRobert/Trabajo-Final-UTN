@@ -3,7 +3,7 @@ import "./Header.css"
 
 const Header = () => {
     return(
-        <header>
+        <header class="fixed-top">
             <div class="texto-header">
                 <a href=""><i class="bi bi-slack icn-header"></i><strong>PORTFOLIO.WEB</strong></a>
             </div>
@@ -15,10 +15,11 @@ const Header = () => {
                 <a href="#portfolio"><strong>Portfolio</strong></a>
                 <a href="#testimonios"><strong>Testimonios</strong></a>
             </nav>
-
+            
             <div>
-
-                <button class="btn-nav"><a href="#contacto"><strong>Contáctame</strong></a></button> 
+                <div class="frame">
+                    <a href="#contacto"><button class="custom-btn-nav btn-7 btn-nav"><span><strong>Contáctame</strong></span></button></a>
+                </div>
 
                 {/*Nav Responsive*/}
                 <nav class="navbar navbar-expand-lg fixed-top nav-responsive">

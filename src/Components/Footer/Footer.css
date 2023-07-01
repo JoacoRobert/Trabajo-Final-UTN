@@ -1,0 +1,120 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*Footer*/
+footer{
+    background-color:  #F4FCFF;
+    margin-top: 120px;
+}
+
+.contenedor-footer{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;  
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+
+.texto-footer a{
+    color: #E62872; 
+    font-size: 22px;
+}
+
+.texto-footer a:hover{
+    color: #7E68D4;
+}
+
+.icn-footer{
+    padding: 0px 10px 0px 0px;
+}
+
+.icono-footer i{
+    padding: 0px 7px;
+    color: black;
+    font-size: 16px;
+}
+
+.icono-footer i:hover{
+    color: #7E68D4;
+}
+
+.nav-footer a{
+    color: black;
+    font-size: 16px;
+    padding: 0px 7px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+.nav-footer a:hover{
+    color: #E62872;
+}
+
+.legales-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 65px;
+}
+
+.legales-footer a{
+    color: black;
+    padding: 0px 7px;
+}
+
+.legales-footer a:hover{
+    color: #E62872;
+}
+
+.linea-footer{
+    border-top: 2px solid #D4D5D9;
+    margin-top: 25px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Responsive*/
+@media screen and (max-width:1200px) {
+    .linea-footer{width: 89%;}
+}
+
+@media screen and (max-width:767px) {
+    .contenedor-footer{
+        display: block;
+       text-align: center;
+    }
+
+    .nav-footer{
+        display: none;
+    }
+
+    .icono-footer{
+        margin-top: 25px;
+    }
+
+    .icono-footer i{
+        font-size: 30px;
+    }
+
+    .legales-footer{
+        padding-left: 0px;
+        text-align: center;
+    }
+}

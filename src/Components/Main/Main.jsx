@@ -12,7 +12,9 @@ const Main = () => {
                         <h3 class="titulo-hero">Hola, soy Joaquín</h3>
                         <p class="texto-hero1">Creo <span>diseños de productos</span> y experiencia de marca.</p>
                         <p class="texto-hero2">Elaboración convincente para mejorar la identidad de la marca <br/> y elevar la experiencia del usuario</p>
-                        <button class="btn-hero"><a href="#contacto">Más info!!</a></button>
+                        <div class="frame-hero">
+                            <a href="#contacto"><button class="custom-btn btn-15 btn-hero">Más info!!</button></a>
+                        </div>
                     </div>
                     <img src="../Fotos/img-hero.png" class="img-hero" alt=""/>
                     
@@ -77,8 +79,8 @@ const Main = () => {
 
                     <h2 class="titulo-portfolio">Mi Portfolio</h2>
 
-                    <div class="btn-portfolio">
-                        <button><a href="https://dribbble.com/" target="_blank"><i class="bi bi-dribbble icono-portfolio"></i>Visita Mi Dribbble</a></button> 
+                    <div class="frame-portfolio btn-portfolio">
+                        <a href="https://dribbble.com/" target="_blank"><button class="custom-btn-portfolio btn-10 btn-portfolio"><i class="bi bi-dribbble icono-portfolio"></i>Visita Mi Dribbble</button></a>
                     </div>
 
                 </div>
@@ -232,8 +234,19 @@ const Main = () => {
                         </div>
 
                         <div class="boton-contacto">
-                            <button class="btn-contacto" type="submit"><a href="">Enviar</a></button>
+                            <button class="btn-contacto">
+								  <div class="svg-wrapper-1">
+								    <div class="svg-wrapper">
+								      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+								        <path fill="none" d="M0 0h24v24H0z"></path>
+								        <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+								      </svg>
+								    </div>
+								  </div>
+								  <span>Enviar</span>
+							</button>
                         </div>
+                        
                         
                     </div>
 
