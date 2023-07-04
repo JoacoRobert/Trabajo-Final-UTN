@@ -1,7 +1,10 @@
 import React from 'react';
 import "./Main.css"
 
+
 const Main = () => {
+
+    
     return(
         <main>
             {/*Inicia Hero*/}
@@ -32,22 +35,22 @@ const Main = () => {
                     <div class="caja1">
                         <i class="bi bi-compass icono-experiencia"></i>
                         <h3>Estrategia y Dirección</h3>
-                        <p class="texto-experiencia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id reprehenderit, repellendus laboriosam aut impedit magni?.</p>
+                        <p class="texto-experiencia">Ofrezco servicios de estrategia y dirección web, desde la definición de los objetivos, el público y el tipo de sitio web.<br/> Hasta la planificación y ejecución del proyecto.</p>
                     </div>
                     <div class="caja2">
                         <i class="bi bi-tags-fill icono-experiencia"></i>
                         <h3>Marca y Logotipo</h3>
-                        <p class="texto-experiencia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id reprehenderit, repellendus laboriosam aut impedit magni?.</p>
+                        <p class="texto-experiencia">Creo marcas y logotipos que reflejan la personalidad, los valores y el propósito de cada cliente y que se adaptan a diferentes medios y formatos.</p>
                     </div>
                     <div class="caja3">
                         <i class="bi bi-brush icono-experiencia"></i>
                         <h3>Diseño UX & UI</h3>
-                        <p class="texto-experiencia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id reprehenderit, repellendus laboriosam aut impedit magni?.</p>
+                        <p class="texto-experiencia">Diseño experiencias e interfaces de usuario intuitivas, elegantes y responsivas,<br/> que satisfacen las necesidades y expectativas de los usuarios y que optimizan la conversión y la fidelización.</p>
                     </div>
                     <div class="caja4">
                         <i class="bi bi-code-slash icono-experiencia"></i>
                         <h3>Desarrollo Web</h3>
-                        <p class="texto-experiencia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id reprehenderit, repellendus laboriosam aut impedit magni?.</p>
+                        <p class="texto-experiencia">Desarrollo sitios web a medida, utilizando las tecnologías más adecuadas para cada proyecto, garantizando la calidad, la seguridad y el rendimiento del proyecto.</p>
                     </div>
                 </div>
 
@@ -63,8 +66,8 @@ const Main = () => {
 
                     <div class="texto-sobremi">
                         <h2 class="titulo-sobremi"><strong>Sobre Mí</strong></h2>
-                        <p class="texto-sobremi1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eaque ipsam nemo non dolorem omnis laboriosam odit iusto, nobis perspiciatis similique laborum fugiat. Voluptatem voluptates ullam, veritatis quae alias sed. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, quae dicta nihil commodi fugit maxime expedita laboriosam eius magnam sit ipsa illum saepe voluptates, aliquid debitis sequi ad similique fuga.</p>
-                        <p class="texto-sobremi2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex assumenda hic magni quasi debitis accusantium blanditiis ea architecto quibusdam perspiciatis, fugit perferendis saepe voluptatibus beatae? Distinctio iusto iste numquam sed.</p>
+                        <p class="texto-sobremi1">Hola, soy Joaquín, tengo 37 años y soy diseñador web desde hace más de una década. Me apasiona crear sitios web que sean útiles, fáciles de usar y que cumplan con los objetivos de mis clientes. Tengo experiencia en diferentes áreas del diseño web, como la estrategia, la marca, el diseño UX-UI y el desarrollo web. Me gusta estar al día con las últimas tendencias y novedades del sector, aprender nuevas herramientas y habilidades que me permitan mejorar mi trabajo. Soy una persona creativa, proactiva y responsable, que disfruta de trabajar en equipo y de comunicarse con los clientes y los usuarios. Puedes ver algunos de mis proyectos en mi portfolio, estaré encantado de escuchar tus ideas y de ayudarte a crear el sitio web que necesitas.</p>
+                        <p class="texto-sobremi2">Mi portfolio refleja mi dedicación, creatividad e innovación como diseñador web. Me gusta crear soluciones a medida para cada cliente, que se adapten a sus necesidades y que les ayuden a posicionarse competitivamente en sus mercados. Si buscas un diseñador web profesional, confiable y con experiencia, no dudes en contactarme. Estoy seguro de que juntos podemos crear el sitio web que tu negocio necesita para crecer y destacar.</p>
                     </div>
 
                 </div>
@@ -94,7 +97,7 @@ const Main = () => {
                     
                         <div class="cards">
                             <h3 class="card-titulo">Ahuse</h3>
-                            <p class="texto-portfolio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p class="texto-portfolio">E-commerce de cosméticos y productos de belleza.</p>
                             <a class="enlace-portfolio" href="https://dribbble.com/" target="_blank">Ver en Dribbble <i class="bi bi-arrow-up-right flecha"></i></a>
                         </div>
                     </div>
@@ -106,7 +109,7 @@ const Main = () => {
                     
                         <div class="cards">
                             <h3 class="card-titulo">App Dashboard</h3>
-                            <p class="texto-portfolio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p class="texto-portfolio">App para la gestión de la información.</p>
                             <a class="enlace-portfolio" href="https://dribbble.com/" target="_blank">Ver en Dribbble <i class="bi bi-arrow-up-right flecha"></i></a>
                         </div>
                     </div>
@@ -118,7 +121,7 @@ const Main = () => {
                     
                         <div class="cards">
                             <h3 class="card-titulo">Easy Rent</h3>
-                            <p class="texto-portfolio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p class="texto-portfolio">Web que permite comparar alquileres por zonas.</p>
                             <a class="enlace-portfolio" href="https://dribbble.com/" target="_blank">Ver en Dribbble <i class="bi bi-arrow-up-right flecha"></i></a>
                         </div>
                     </div>
@@ -139,7 +142,7 @@ const Main = () => {
 
                             <i class="bi bi-star-fill icn-clientes"></i> <i class="bi bi-star-fill icn-clientes"> </i><i class="bi bi-star-fill icn-clientes"></i> <i class="bi bi-star-fill icn-clientes"></i> <i class="bi bi-star-fill icn-clientes"></i>
 
-                            <p class="texto-clientes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ratione quas voluptates officia fugiat.</p>
+                            <p class="texto-clientes">Joaquín es un excelente diseñador web, que supo entender y plasmar perfectamente lo que queríamos para nuestro sitio web.</p>
 
                             <div class="marcas">
                                 <i class="bi bi-person-circle icn-clientes2"></i>
@@ -152,7 +155,7 @@ const Main = () => {
                             
                             <i class="bi bi-star-fill icn-clientes"></i> <i class="bi bi-star-fill icn-clientes"> </i><i class="bi bi-star-fill icn-clientes"></i> <i class="bi bi-star-fill icn-clientes"></i> <i class="bi bi-star-fill icn-clientes"></i>
 
-                            <p class="texto-clientes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ratione quas voluptates officia fugiat.</p>
+                            <p class="texto-clientes">Joaquín es un excelente diseñador web, que supo entender y plasmar perfectamente lo que queríamos para nuestro sitio web.</p>
 
                             <div class="marcas">
                                 <i class="bi bi-person-circle icn-clientes3"></i>
@@ -165,7 +168,7 @@ const Main = () => {
                             
                             <i class="bi bi-star-fill icn-clientes"></i> <i class="bi bi-star-fill icn-clientes"> </i><i class="bi bi-star-fill icn-clientes"></i> <i class="bi bi-star-fill icn-clientes"></i> <i class="bi bi-star-fill icn-clientes"></i>
 
-                            <p class="texto-clientes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ratione quas voluptates officia fugiat.</p>
+                            <p class="texto-clientes">Joaquín es un excelente diseñador web, que supo entender y plasmar perfectamente lo que queríamos para nuestro sitio web.</p>
 
                             <div class="marcas">
                                 <i class="bi bi-person-circle icn-clientes4"></i>
@@ -186,35 +189,43 @@ const Main = () => {
                 <h2 class="titulo-contacto">Contáctame</h2>
                 <p class="texto-contacto">Contáctame para hablar sobre tu proyecto y cómo puedo ayudarte a hacer realidad tu visión.</p>
 
-                <form>
+                <form action="https://formspree.io/f/xleyerel" method="POST">
 
                     <div class="contenedor-contacto">
 
                         <div class="contacto-datos">
                             <div class="columna1">
-                            <label for="">Nombre</label>
-                            <input class="cuadros" type="text" required placeholder="Ingrese Nombre"/>
+                            <label htmlFor='nombre'>Nombre</label>
+                            <input class="cuadros" type="text" id='nombre' name='nombre' required placeholder='Ingrese Nombre' maxLength={3}/>
                             </div>
+                            {/*<div>
+                                <label htmlFor="name">Nombre:</label>
+                                <input type="text" id="name" name="name" />
+                            </div>*/}
                             <div class="columna2">
-                            <label for="">Apellido</label>
-                            <input class="cuadros" type="text" required placeholder="Ingrese Apellido"/>
+                            <label htmlFor="apellido">Apellido</label>
+                            <input class="cuadros" type="text" id='apellido' name='apellido' required placeholder="Ingrese Apellido"/>
                             </div>
                         </div>
 
                         <div class="contacto-datos">
                             <div class="columna1">
-                            <label for="">Email</label>
-                            <input class="cuadros" type="email" required placeholder="Ingrese Email"/>
+                            <label htmlFor="email">Email</label>
+                            <input class="cuadros" type="email" id='email' name='email' required placeholder="Ingrese Email"/>
                             </div>
+                            {/*<div>
+                                <label htmlFor="email">Correo electrónico:</label>
+                                <input type="email" id="email" name="email" />
+                            </div>*/}
                             <div class="columna2">
-                            <label for="">Teléfono</label>
-                            <input class="cuadros" type="text" required placeholder="Ingrese Teléfono"/>
+                            <label htmlFor="">Teléfono</label>
+                            <input class="cuadros" type="text" id='telefono' name='telefono' required placeholder="Ingrese Teléfono"/>
                             </div>
                         </div>
                         
                         <div class="columna3">
-                            <label for="">Eliga un tema</label>
-                            <select class="cuadros" name="" id="">
+                            <label htmlFor="tema">Eliga un tema</label>
+                            <select class="cuadros" name="tema" id="tema">
                                 <option class="cuadros" value="Seleccione un tema">Seleccione un tema</option>
                                 <option class="cuadros" value="Estrategia y Dirección">Estrategia y Dirección</option>
                                 <option class="cuadros" value="Marca y Logotipo">Marca y Logotipo</option>
@@ -224,13 +235,18 @@ const Main = () => {
                         </div>
 
                         <div class="columna3">
-                            <label for="">Mensaje</label>
-                            <textarea class="cuadros" name="" id="" cols="100" rows="15"></textarea>
+                            <label htmlFor="mensaje">Mensaje</label>
+                            <textarea class="cuadros" name="mensaje" id="mensaje" cols="100" rows="15"></textarea>
                         </div>
 
+                        {/*<div>
+                            <label htmlFor="message">Mensaje:</label>
+                            <textarea id="message" name="message"></textarea>
+                        </div>*/}
+
                         <div class="terminos">
-                            <input type="checkbox" name="terms" id="terms" onChange="enableSending()"/>
-                            <label for="terms">Acepto los términos</label>
+                            <input type="checkbox" name="terminos" id="terminos" onChange="enableSending()"/>
+                            <label htmlFor="terminos">Acepto los términos</label>
                         </div>
 
                         <div class="boton-contacto">
@@ -251,6 +267,7 @@ const Main = () => {
                     </div>
 
                 </form>
+                
             </section>
             {/*Finaliza Contacto*/}
 

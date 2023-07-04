@@ -145,19 +145,24 @@ span{
     margin-top: 25px;
 }
 
-.caja1{
+.caja1, .caja3{
     border-bottom: 2px solid #E62872;
+}
+
+.caja2, .caja4{
+    border-bottom: 2px solid #7E68D4; 
 }
 
 .caja1, .caja2, .caja3, .caja4{
     background-color: #F4FCFF;
     border-radius: 10px;
     padding: 30px;
+    width: 25%;
 }
 
 .texto-experiencia{
     margin-top: 20px;
-    
+    line-height: 20px;
 }
 
 .caja2, .caja3, .caja4{
@@ -190,8 +195,8 @@ span{
 }
 
 .texto-sobremi1, .texto-sobremi2{
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 25px;
+    line-height: 30px;
 }
 
 .texto-sobremi1{
@@ -540,6 +545,24 @@ label{
         font-size: 14px;
         line-height: 20px;
     }
+
+    .contenedor-sobremi{
+        margin-bottom: 70px;
+    }
+
+    .titulo-sobremi{
+        margin-bottom: 30px;
+    }
+
+    .texto-sobremi1, .texto-sobremi2{
+        font-size: 15px;
+    }
+
+    .img-sobremi{
+        width: 43%;
+        margin-top: 100px;
+    }
+
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
@@ -581,6 +604,10 @@ label{
 
     .contenedor-experiencia{
         display: block;
+    }
+
+    .caja1, .caja2, .caja3, .caja4{
+        width: 100%;
     }
 
     .caja2, .caja3, .caja4{
