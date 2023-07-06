@@ -109,7 +109,7 @@ const Main = () => {
                     
                         <div className="cards">
                             <h3 className="card-titulo">App Dashboard</h3>
-                            <p className="texto-portfolio">App para la gestión de la información.</p>
+                            <p className="texto-portfolio">App para la gestión de la información y visualización de datos.</p>
                             <a className="enlace-portfolio" href="https://dribbble.com/" target="_blank">Ver en Dribbble <i className="bi bi-arrow-up-right flecha"></i></a>
                         </div>
                     </div>
