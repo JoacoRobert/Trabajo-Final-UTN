@@ -2,5 +2,5 @@
 En mi caso realice el siguiente Portfolio de Behance:
 https://www.behance.net/gallery/167495819/Portfolio-Website-Design 
 </br>
-<p align=left" dir="auto">Mi trabajo final es el siguiente:</p>
+Mi trabajo final es el siguiente:
 https://tubular-yeot-a2a650.netlify.app/
